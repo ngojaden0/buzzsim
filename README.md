@@ -1,2 +1,2 @@
 # buzzsim
-six-degree-of-freedom simulator for quadcopter
+six-degree-of-freedom simulator
