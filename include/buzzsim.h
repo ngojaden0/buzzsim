@@ -13,7 +13,12 @@
 class Buzzsim
 {
     public:
+        Buzzsim()
+        {
+            init();
+        }
         void init();
+        bool debug_ = true;
 
     private:
         std::unique_ptr<Aero>      aero;
@@ -23,4 +28,6 @@ class Buzzsim
         std::unique_ptr<EOM>       eom;
         std::unique_ptr<Guidance>  guidance;
         std::unique_ptr<Prop>      prop;
+
+        std::string name_ = "NONE";
 };

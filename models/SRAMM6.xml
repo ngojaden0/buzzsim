@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missile>
+    <name>SRAMM6</name>
+    <components>
+        <component name="Aerodynamics">
+            <variable1>Value1</variable1>
+            <variable2>Value2</variable2>
+            <variable3>Value3</variable3>
+        </component>
+        <component name="Airframe">
+            <variable1>Value1</variable1>
+            <variable2>Value2</variable2>
+            <variable3>Value3</variable3>
+        </component>
+        <component name="Atmosphere">
+            <variable1>Value1</variable1>
+            <variable2>Value2</variable2>
+            <variable3>Value3</variable3>
+        </component>
+        <component name="Autopilot">
+            <variable1>Value1</variable1>
+            <variable2>Value2</variable2>
+            <variable3>Value3</variable3>
+        </component>
+        <component name="EquationsOfMotion">
+            <variable1>Value1</variable1>
+            <variable2>Value2</variable2>
+            <variable3>Value3</variable3>
+        </component>
+        <component name="Guidance">
+            <variable1>Value1</variable1>
+            <variable2>Value2</variable2>
+            <variable3>Value3</variable3>
+        </component>
+        <component name="Propulsion">
+            <variable1>Value1</variable1>
+            <variable2>Value2</variable2>
+            <variable3>Value3</variable3>
+        </component>
+    </components>
+</missile>

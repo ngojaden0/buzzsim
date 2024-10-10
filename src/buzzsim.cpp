@@ -1,7 +1,4 @@
 #include "buzzsim.h"
-#include <stdio.h>
-#include <iostream>
-#include <memory>
 
 void Buzzsim::init()
 {
@@ -12,10 +9,14 @@ void Buzzsim::init()
     eom = std::make_unique<EOM>();
     guidance = std::make_unique<Guidance>();
     prop = std::make_unique<Prop>();
+    
+    if(debug_)
+        std::cout << "BUZZSIM Initiated..." << std::endl;
 }
 
 int main()
 {
-    printf("hey");
+    std::unique_ptr<Buzzsim> buzzsim = std::make_unique<Buzzsim>();
+    
     return 0;
 }
