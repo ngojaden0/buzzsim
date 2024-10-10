@@ -1,4 +1,4 @@
-class atmos
+class Atmos
 {
     public:
         void init();

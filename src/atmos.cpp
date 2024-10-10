@@ -1,6 +1,6 @@
 #include "atmos.h"
 
-void atmos::init()
+void Atmos::init()
 {
 
 }

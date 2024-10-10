@@ -1,4 +1,4 @@
-class airframe
+class Airframe
 {
     public:
         void init();

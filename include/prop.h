@@ -1,4 +1,4 @@
-class prop
+class Prop
 {
     public:
         void init();

@@ -1,4 +1,4 @@
-class guidance
+class Guidance
 {
     public:
         void init();

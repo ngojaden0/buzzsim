@@ -1,4 +1,4 @@
-class autopilot
+class Autopilot
 {
     public:
         void init();

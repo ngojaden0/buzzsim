@@ -1,6 +1,6 @@
 #include "prop.h"
 
-void prop::init()
+void Prop::init()
 {
 
 }

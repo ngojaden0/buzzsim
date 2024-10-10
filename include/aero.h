@@ -1,4 +1,4 @@
-class aero
+class Aero
 {
     public:
         void init();

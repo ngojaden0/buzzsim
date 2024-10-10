@@ -1,4 +1,4 @@
-class eom
+class EOM
 {
     public:
         void init();

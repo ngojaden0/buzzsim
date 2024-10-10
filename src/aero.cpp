@@ -1,6 +1,6 @@
 #include "aero.h"
 
-void aero::init()
+void Aero::init()
 {
 
 }

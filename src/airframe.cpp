@@ -1,6 +1,6 @@
 #include "airframe.h"
 
-void airframe::init()
+void Airframe::init()
 {
 
 }
