@@ -1,4 +1,4 @@
-class Airframe
+class Actuator
 {
     public:
         void init();

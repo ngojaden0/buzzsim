@@ -7,7 +7,7 @@
             <variable2>Value2</variable2>
             <variable3>Value3</variable3>
         </component>
-        <component name="Airframe">
+        <component name="Actuator">
             <variable1>Value1</variable1>
             <variable2>Value2</variable2>
             <variable3>Value3</variable3>

@@ -3,7 +3,7 @@
 #include <string>
 
 #include "aero.h"
-#include "airframe.h"
+#include "actuator.h"
 #include "atmos.h"
 #include "autopilot.h"
 #include "eom.h"
@@ -22,7 +22,7 @@ class Buzzsim
 
     private:
         std::unique_ptr<Aero>      aero;
-        std::unique_ptr<Airframe>  airframe;
+        std::unique_ptr<Actuator>  actuator;
         std::unique_ptr<Atmos>     atmos;
         std::unique_ptr<Autopilot> autopilot;
         std::unique_ptr<EOM>       eom;

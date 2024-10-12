@@ -3,7 +3,7 @@
 void Buzzsim::init()
 {
     aero = std::make_unique<Aero>();
-    airframe = std::make_unique<Airframe>();
+    actuator = std::make_unique<Actuator>();
     atmos = std::make_unique<Atmos>();
     autopilot = std::make_unique<Autopilot>();
     eom = std::make_unique<EOM>();
