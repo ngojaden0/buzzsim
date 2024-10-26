@@ -1,6 +1,6 @@
 # buzzsim
 
-six-degree-of-freedom simulator
+three-degree-of-freedom simulator
 
 Assumptions:
 Flat Earth

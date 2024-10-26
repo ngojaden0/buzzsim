@@ -1,6 +1,6 @@
 #include "buzzsim.h"
 
-void Buzzsim::init()
+void Buzzsim::Init()
 {
     aero = std::make_unique<Aero>();
     actuator = std::make_unique<Actuator>();

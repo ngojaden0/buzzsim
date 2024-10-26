@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(include)
+include_directories(utils/include)
 
 set(TINYXML2_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/libs/tinyxml2")
 set(EIGEN3_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/libs/eigen-3.4.0")

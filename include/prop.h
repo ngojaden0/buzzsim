@@ -1,6 +1,6 @@
 class Prop
 {
     public:
-        void init();
+        void Init();
     private:
 };

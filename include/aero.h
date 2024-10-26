@@ -3,9 +3,9 @@ class Aero
     public:
         Aero()
         {
-            init();
+            Init();
         }
-        void init();
+        void Init();
 
     private:
 };

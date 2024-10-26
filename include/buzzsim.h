@@ -15,9 +15,9 @@ class Buzzsim
     public:
         Buzzsim()
         {
-            init();
+            Init();
         }
-        void init();
+        void Init();
         bool debug_ = true;
 
     private:

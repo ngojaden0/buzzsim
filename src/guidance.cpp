@@ -1,6 +1,6 @@
 #include "guidance.h"
 
-void Guidance::init()
+void Guidance::Init()
 {
 
 }

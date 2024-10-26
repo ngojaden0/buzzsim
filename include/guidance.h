@@ -1,6 +1,6 @@
 class Guidance
 {
     public:
-        void init();
+        void Init();
     private:
 };

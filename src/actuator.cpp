@@ -1,6 +1,6 @@
 #include "actuator.h"
 
-void Actuator::init()
+void Actuator::Init()
 {
 
 }

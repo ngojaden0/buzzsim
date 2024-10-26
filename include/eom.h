@@ -1,6 +1,6 @@
 class EOM
 {
     public:
-        void init();
+        void Init();
     private:
 };

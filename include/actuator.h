@@ -1,6 +1,6 @@
 class Actuator
 {
     public:
-        void init();
+        void Init();
     private:
 };

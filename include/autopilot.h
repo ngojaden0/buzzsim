@@ -1,6 +1,6 @@
 class Autopilot
 {
     public:
-        void init();
+        void Init();
     private:
 };

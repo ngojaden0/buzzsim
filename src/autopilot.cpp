@@ -1,6 +1,6 @@
 #include "autopilot.h"
 
-void Autopilot::init()
+void Autopilot::Init()
 {
 
 }

@@ -16,4 +16,7 @@ namespace Constants
 
     constexpr double SEA_LEVEL_AIR_DENSITY = 1.225; 
     constexpr double STANDARD_PRESSURE = 101325.0;
+
+    constexpr double R_GAS_CONSTANT = 8.314;
+    constexpr double SPECIFIC_HEAT_AIR = 1.4;
 }

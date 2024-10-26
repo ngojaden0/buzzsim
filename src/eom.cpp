@@ -1,6 +1,6 @@
 #include "eom.h"
 
-void EOM::init()
+void EOM::Init()
 {
 
 }
