@@ -18,7 +18,20 @@ struct Atmosphere
     };
 };
 
+struct Aerodynamics
+{
+    double Cl;
+    double Cd;
+
+    void reset()
+    {
+        Cl = 0.0;
+        Cd = 0.0;
+    };
+};
+
 struct BuzzMemory
 {
     Atmosphere Atmos;
+    Aerodynamics Aero;
 };
