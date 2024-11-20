@@ -1,11 +1,10 @@
+#include "buzz_memory.h"
+#include "entity.h"
 class Aero
 {
     public:
-        Aero()
-        {
-            Init();
-        }
-        void Init();
+        void Init(BuzzMemory& buzzMemory);
+        void Update(BuzzMemory& buzzMemory, Entity& missile);
 
     private:
 };

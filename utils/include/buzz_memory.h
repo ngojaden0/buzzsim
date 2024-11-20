@@ -1,3 +1,4 @@
+#pragma once
 struct Atmosphere
 {
     double temp;
@@ -32,6 +33,6 @@ struct Aerodynamics
 
 struct BuzzMemory
 {
-    Atmosphere Atmos;
-    Aerodynamics Aero;
+    Atmosphere atmos;
+    Aerodynamics aero;
 };

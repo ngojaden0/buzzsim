@@ -6,5 +6,6 @@ class Atmos
     public:
         void Init(BuzzMemory& buzzMemory);
         void Update(BuzzMemory& buzzMemory, Entity& missile);
+
     private:
 };
