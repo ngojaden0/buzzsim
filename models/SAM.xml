@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <missile>
-    <name>SRAMM6</name>
+    <name>SAM</name>
     <components>
         <component name="Aerodynamics">
             <variable1>Value1</variable1>

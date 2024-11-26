@@ -24,4 +24,12 @@ struct States
 struct Entity
 {
     States states;
+    double refArea;
+    double refLength;
+
+    void reset()
+    {
+        refArea = 0.0;
+        refLength = 0.0;
+    }
 };

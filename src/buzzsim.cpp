@@ -2,13 +2,19 @@
 
 void Buzzsim::Init()
 {
-    aero = std::make_unique<Aero>();
-    actuator = std::make_unique<Actuator>();
-    atmos = std::make_unique<Atmos>();
-    autopilot = std::make_unique<Autopilot>();
-    eom = std::make_unique<EOM>();
-    guidance = std::make_unique<Guidance>();
-    prop = std::make_unique<Prop>();
+    aero_ = std::make_unique<Aero>();
+    actuator_ = std::make_unique<Actuator>();
+    atmos_ = std::make_unique<Atmos>();
+    autopilot_ = std::make_unique<Autopilot>();
+    eom_ = std::make_unique<EOM>();
+    guidance_ = std::make_unique<Guidance>();
+    prop_ = std::make_unique<Prop>();
+
+    buzzMemory_ = std::make_unique<BuzzMemory>();
+    missile_ = std::make_unique<Entity>();
+
+    missile_->refArea = 0.049;
+    missile_->refLength = 0.25;
     
     if(debug_)
         std::cout << "BUZZSIM Initiated..." << std::endl;
@@ -16,7 +22,10 @@ void Buzzsim::Init()
 
 int main()
 {
+    // TODO: Initialize reference area and length
     std::unique_ptr<Buzzsim> buzzsim = std::make_unique<Buzzsim>();
     
+    // Run update routines in a loop
+
     return 0;
 }

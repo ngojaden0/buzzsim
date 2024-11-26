@@ -9,6 +9,8 @@
 #include "eom.h"
 #include "guidance.h"
 #include "prop.h"
+#include "entity.h"
+#include "buzz_memory.h"
 
 class Buzzsim
 {
@@ -21,13 +23,16 @@ class Buzzsim
         bool debug_ = true;
 
     private:
-        std::unique_ptr<Aero>      aero;
-        std::unique_ptr<Actuator>  actuator;
-        std::unique_ptr<Atmos>     atmos;
-        std::unique_ptr<Autopilot> autopilot;
-        std::unique_ptr<EOM>       eom;
-        std::unique_ptr<Guidance>  guidance;
-        std::unique_ptr<Prop>      prop;
+        std::unique_ptr<Aero>       aero_;
+        std::unique_ptr<Actuator>   actuator_;
+        std::unique_ptr<Atmos>      atmos_;
+        std::unique_ptr<Autopilot>  autopilot_;
+        std::unique_ptr<EOM>        eom_;
+        std::unique_ptr<Guidance>   guidance_;
+        std::unique_ptr<Prop>       prop_;
+
+        std::unique_ptr<BuzzMemory> buzzMemory_;
+        std::unique_ptr<Entity>     missile_;
 
         std::string name_ = "NONE";
 };
