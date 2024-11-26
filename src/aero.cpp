@@ -1,14 +1,14 @@
 #include "aero.h"
 #include <cmath>
 
-void Aero::Init(BuzzMemory& buzzMemory)
+void Aero::Init(std::unique_ptr<BuzzMemory> buzzMemory)
 {
-    buzzMemory.aero.reset();
+    buzzMemory->aero.reset();
 }
 
-void Aero::Update(BuzzMemory& buzzMemory, Entity& missile)
+void Aero::Update(std::unique_ptr<BuzzMemory> buzzMemory, std::unique_ptr<Entity> missile)
 {
     // TODO: Parabolic Drag Polar
-    buzzMemory.aero.Cl = Clao + Cla*buzzMemory.aero.alpha;
-    buzzMemory.aero.Cd = Cdo + k*std::pow(buzzMemory.aero.Cl - Clo, 2);
+    buzzMemory->aero.Cl = Clao + Cla*buzzMemory->aero.alpha;
+    buzzMemory->aero.Cd = Cdo + k*std::pow(buzzMemory->aero.Cl - Clo, 2);
 }

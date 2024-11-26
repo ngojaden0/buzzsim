@@ -1,11 +1,13 @@
 #include "buzz_memory.h"
 #include "entity.h"
+#include <memory>
 
 
 class EOM
 {
     public:
-        void Init(BuzzMemory& buzzMemory);
-        void Update(BuzzMemory& buzzMemory, Entity& missile);
+        void Init(std::unique_ptr<BuzzMemory> buzzMemory);
+        void Update(std::unique_ptr<BuzzMemory> buzzMemory, std::unique_ptr<Entity> missile);
+
     private:
 };

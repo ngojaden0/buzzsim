@@ -20,9 +20,9 @@ class Buzzsim
             Init();
         }
         void Init();
+        void Update();
         bool debug_ = true;
 
-    private:
         std::unique_ptr<Aero>       aero_;
         std::unique_ptr<Actuator>   actuator_;
         std::unique_ptr<Atmos>      atmos_;
@@ -35,4 +35,6 @@ class Buzzsim
         std::unique_ptr<Entity>     missile_;
 
         std::string name_ = "NONE";
+
+    private:
 };
